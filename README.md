@@ -1,5 +1,7 @@
 ## Installation and Usage
 
+pg_base58 supports PostgreSQL 15 through 19 and requires Rust 1.99.1 or later.
+
 ### 1. Install Rust
 
 As first, you will need to install some dependencies:
@@ -42,7 +44,7 @@ sudo yum install -y bison-devel readline-devel zlib-devel openssl-devel wget cca
 ```bash
 git clone https://github.com/Fell-x27/pg_base58.git
 cd pg_base58
-cargo install cargo-pgrx
+cargo install cargo-pgrx --version 0.20.1 --locked
 cargo pgrx init
 ```
 
